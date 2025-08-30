@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
+  font-family: "Fira Code", monospace;
+  background: #0a0a0a;
+  color: #00ff00;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
 }
 
 header {
@@ -16,39 +16,67 @@ header {
 header h1 {
   margin: 0;
   font-size: 2.5em;
+  color: #00ff00;
 }
 
 header p {
-  font-size: 1.2em;
-  margin: 10px 0;
+  font-size: 1.3em;
+  color: #66ff66;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
-  color: #007acc;
+  color: #00ff00;
+  border-bottom: 1px dashed #00ff00;
 }
 
 nav a:hover {
-  text-decoration: underline;
-}
-
-section {
-  margin: 40px 0;
+  color: #ff3333;
 }
 
 h2 {
-  border-bottom: 2px solid #007acc;
-  padding-bottom: 5px;
+  margin-top: 50px;
+  border-left: 4px solid #00ff00;
+  padding-left: 10px;
+  font-size: 1.5em;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
 }
 
 ul li {
-  margin: 10px 0;
+  margin: 8px 0;
+}
+
+a {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ff3333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #00ff00;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #111;
 }
 
 footer {
